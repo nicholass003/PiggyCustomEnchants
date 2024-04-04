@@ -12,13 +12,14 @@ use DaPigGuy\PiggyCustomEnchants\PiggyCustomEnchants;
 use DaPigGuy\PiggyCustomEnchants\utils\Utils;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
 use Vecnavium\FormsUI\CustomForm;
 
 class RemoveSubCommand extends BaseSubCommand
 {
     /** @var PiggyCustomEnchants */
-    protected $plugin;
+    protected Plugin $plugin;
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
     {
