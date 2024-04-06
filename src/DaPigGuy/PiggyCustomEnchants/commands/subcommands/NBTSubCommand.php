@@ -8,12 +8,13 @@ use CortexPE\Commando\BaseSubCommand;
 use DaPigGuy\PiggyCustomEnchants\PiggyCustomEnchants;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
 
 class NBTSubCommand extends BaseSubCommand
 {
     /** @var PiggyCustomEnchants */
-    protected $plugin;
+    protected Plugin $plugin;
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
     {

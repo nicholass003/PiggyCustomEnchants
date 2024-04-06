@@ -16,6 +16,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\item\ItemTypeIds;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
 use Ramsey\Uuid\Uuid;
 use Vecnavium\FormsUI\CustomForm;
@@ -23,7 +24,7 @@ use Vecnavium\FormsUI\CustomForm;
 class EnchantSubCommand extends BaseSubCommand
 {
     /** @var PiggyCustomEnchants */
-    protected $plugin;
+    protected Plugin $plugin;
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
     {

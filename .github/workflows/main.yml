@@ -14,7 +14,7 @@ jobs:
       - name: Download Virion Dependencies
         run: |
           wget -O vendor/FormsUI.phar https://poggit.pmmp.io/r/209836/FormsUI_dev-20.phar
-          wget -O vendor/Commando.phar https://poggit.pmmp.io/r/216831/Commando_dev-34.phar
+          wget -O vendor/Commando.phar https://poggit.pmmp.io/r/233076/Commando_dev-41.phar
           wget -O vendor/libPiggyUpdateChecker.phar https://poggit.pmmp.io/r/211732/libPiggyUpdateChecker_dev-2.phar
           wget -O vendor/Customies.phar https://poggit.pmmp.io/r/216154/Customies.phar
       - name: Run PHPStan
